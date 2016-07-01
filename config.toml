@@ -1,0 +1,12 @@
+siteTitle = "Ihor Orlovskyi Portfolio"
+siteDescr = "Web Scientist, Front-end Engineer & Psychedelic Musician"
+siteAuthor = "Ihor Orlovskyi"
+
+siteTelegramUrl = "#"
+siteTwitterUrl = "#"
+siteGithubUrl = "https://github.com/ihororlovskyi"
+siteEmailUrl = "#"
+siteRssUrl = "#"
+siteVkUrl = "#"
+
+linkPrefix = "/gatsby"
