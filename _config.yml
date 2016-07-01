@@ -1,2 +1,2 @@
-baseurl: '/gatsby'
-source: public
+baseurl: /porfolio-on-gatsby
+source: ./public
