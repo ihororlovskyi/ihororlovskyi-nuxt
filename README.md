@@ -4,6 +4,4 @@
 
 `gatsby develop`
 
-`gatsby build`
-
-`jekyll serve -w --baseurl ""`
+`gatsby build --prefix-links`
