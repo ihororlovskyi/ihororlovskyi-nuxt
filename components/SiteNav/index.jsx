@@ -10,15 +10,15 @@ class SiteNav extends React.Component {
             <nav className='blog-nav'>
               <ul>
                 <li>
-                  <Link to="/" className={ location.pathname === prefixLink('/') ? "current" : null }> 1 Articles
+                  <Link to="/" className={ location.pathname === prefixLink('/') ? "current" : null }> Articles
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className={ location.pathname === prefixLink('/about') ? "current" : null }> 2 About
+                  <Link to="/about" className={ location.pathname === prefixLink('/about') ? "current" : null }> About me
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className={ location.pathname === prefixLink('/contact') ? "current" : null }> 3 Contact
+                  <Link to="/contact" className={ location.pathname === prefixLink('/contact') ? "current" : null }> Contact me
                   </Link>
                 </li>
               </ul>
