@@ -14,7 +14,7 @@ class SiteSidebar extends React.Component {
         let header = (
         <header>
           <Link style={ {    textDecoration: 'none',    borderBottom: 'none',    outline: 'none'} } to={ prefixLink('/') }>
-          <img src='./ihororlovskyi-avatar-01-06-2016.jpg' width='180' height='180' />
+          <img src='./ihororlovskyi-01.jpg' width='180' height='180' />
           </Link>
           { isHome ? (
             <h1><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h1>
