@@ -10,37 +10,43 @@ class SiteLinks extends React.Component {
 
         return (
             <div className='blog-social'>
-
                 <ul>
                     <li>
-                        <a href={ config.siteTwitterUrl }><i className='fa fa-twitter'></i></a>
+                        <a href={ config.siteLinkedinUrl } target='_blank'>
+                            <i className='fa fa-linkedin'></i>
+                        </a>
                     </li>
                     <li>
-                        <a href={ config.siteGithubUrl }><i className='fa fa-facebook'></i></a>
+                        <a href={ config.siteFbUrl } target='_blank'>
+                            <i className='fa fa-facebook'></i>
+                        </a>
                     </li>
                     <li>
-                        <a href={ config.siteGithubUrl }><i className='fa fa-github-alt'></i></a>
+                        <a href={ config.siteGithubUrl } target='_blank'>
+                            <i className='fa fa-github-alt'></i>
+                        </a>
                     </li>
                     <li>
-                        <a href={ config.siteVkUrl }><i className='fa fa-vk'></i></a>
+                        <a href={ config.siteSoundcloudUrl } target='_blank'>
+                            <i className='fa fa-soundcloud'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href={ config.siteInstagramUrl } target='_blank'>
+                            <i className='fa fa-instagram'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href={ config.siteGpUrl } target='_blank'>
+                            <i className='fa fa-google-plus'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href={ config.siteTwitterUrl } target='_blank'>
+                            <i className='fa fa-twitter'></i>
+                        </a>
                     </li>
                 </ul>
-
-                <ul>
-                    <li>
-                        <a href={ config.siteEmailUrl }><i className='fa fa-envelope-o'></i></a>
-                    </li>
-                    <li>
-                        <a href={ config.siteTelegramUrl }><i className='fa fa-paper-plane'></i></a>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <a href={ config.siteRssUrl }><i className='fa fa-rss'></i></a>
-                    </li>
-                </ul>
-
             </div>
         );
     }
