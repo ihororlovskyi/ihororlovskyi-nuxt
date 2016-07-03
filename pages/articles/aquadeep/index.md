@@ -1,10 +1,10 @@
 ---
 title: "Aqua Deep Music"
-date: "2015-05-01T22:12:03.284Z"
+date: "2010-05-01T22:12:03.284Z"
 layout: post
 path: "/aquadeep/"
-category: "Jekyll"
-description: "Web development of Aqua Deep Music site"
+category: "Music Label"
+description: "Electronic Music Label"
 ---
 
 [aquadeepmusic.com](http://aquadeepmusic.com)

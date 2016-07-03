@@ -1,10 +1,10 @@
 ---
 title: Lookinglook Records
-date: "2015-05-06T23:46:37.121Z"
+date: "2009-01-06T23:46:37.121Z"
 layout: post
 path: "/lookinglook/"
-category: "Jekyll"
-description: "Web development of Lookinglook Records site"
+category: "Music Label"
+description: "Electronic Music Label"
 ---
 
 [lookinglook.com](http://lookinglook.com)

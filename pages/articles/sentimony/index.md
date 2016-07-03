@@ -3,8 +3,8 @@ title: Sentimony Records
 date: "2006-11-13T22:40:32.169Z"
 layout: post
 path: "/sentimony/"
-category: "Jekyll"
-description: "Web development of Sentimony Records site"
+category: "Music Label"
+description: "Electronic Music Label"
 ---
 
 [sentimony.com](http://sentimony.com)

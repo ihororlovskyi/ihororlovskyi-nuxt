@@ -8,27 +8,31 @@ class SiteNav extends React.Component {
         const {location} = this.props
         return (
             <nav className='blog-nav'>
-              <ul>
-                <li>
-                  <Link to={ prefixLink('/')} className={ location.pathname === prefixLink('/') ? "current" : null }> Articles
-                  </Link>
-                </li>
-                <li>
-                  <Link to={ prefixLink('/about')} className={ location.pathname === prefixLink('/about') ? "current" : null }> About me
-                  </Link>
-                </li>
-                <li>
-                  <Link to={ prefixLink('/contact')} className={ location.pathname === prefixLink('/contact') ? "current" : null }> Contact me
-                  </Link>
-                </li>
-              </ul>
+                <ul>
+                    <li>
+                        <Link to={ prefixLink('/')} className={ location.pathname === prefixLink('/') ? "current" : null }> Articles
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to={ prefixLink('/about')} className={ location.pathname === prefixLink('/about') ? "current" : null }> About me
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to={ prefixLink('/experience')} className={ location.pathname === prefixLink('/experience') ? "current" : null }> Experience
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to={ prefixLink('/contact')} className={ location.pathname === prefixLink('/contact') ? "current" : null }> Contact me
+                        </Link>
+                    </li>
+                </ul>
             </nav>
-            );
+        );
     }
 }
 
 SiteNav.propTypes = {
-    location: React.PropTypes.object,
+        location: React.PropTypes.object,
 }
 
 export default SiteNav
