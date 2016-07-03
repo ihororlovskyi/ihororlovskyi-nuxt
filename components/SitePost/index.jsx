@@ -15,7 +15,7 @@ class SitePost extends React.Component {
         const post = route.page.data
         const home = (
         <div>
-          <Link className='gohome' to={ prefixLink('/') }> All Articles
+          <Link className='gohome' to={ prefixLink('/') }> Home
           </Link>
         </div>
         )
