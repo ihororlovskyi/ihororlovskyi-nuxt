@@ -4,7 +4,6 @@ import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
 import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
-import ExperienceList from '../ExperienceList'
 
 import './style.css'
 
@@ -46,7 +45,6 @@ class SiteSidebar extends React.Component {
                         </footer>
                     </div>
                 </div>
-                <ExperienceList {...this.props}/>
             </div>
         );
     }

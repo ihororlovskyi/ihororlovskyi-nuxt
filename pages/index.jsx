@@ -8,6 +8,7 @@ import access from 'safe-access'
 import { config } from 'config'
 import SitePost from '../components/SitePost'
 import SiteSidebar from '../components/SiteSidebar'
+import ExperienceList from '../components/ExperienceList'
 
 class SiteIndex extends React.Component {
     render() {
@@ -24,15 +25,15 @@ class SiteIndex extends React.Component {
 
                 pageLinks.push(
                     <div className='blog-post'>
-                      <time dateTime={ moment(datePublished).format('MMMM D, YYYY') }>
-                        { moment(datePublished).format('MMMM YYYY') }
-                      </time>
-                      <span style={ {    padding: '5px'} }></span>
-                      <span className='blog-category'>{ category }</span>
-                      <h2><Link style={ {    borderBottom: 'none',} } to={ prefixLink(page.path) } > { title } </Link></h2>
-                      <p dangerouslySetInnerHTML={ {    __html: description} } />
-                      <Link className='readmore' to={ prefixLink(page.path) }> Read
-                      </Link>
+                        <time dateTime={ moment(datePublished).format('MMMM D, YYYY') }>
+                            { moment(datePublished).format('MMMM YYYY') }
+                        </time>
+                        <span style={ {    padding: '5px'} }></span>
+                        <span className='blog-category'>{ category }</span>
+                        <h2><Link style={ {    borderBottom: 'none',} } to={ prefixLink(page.path) } > { title } </Link></h2>
+                        <p dangerouslySetInnerHTML={ {    __html: description} } />
+                        <Link className='readmore' to={ prefixLink(page.path) }> Read
+                        </Link>
                     </div>
                 )
             }
@@ -40,16 +41,17 @@ class SiteIndex extends React.Component {
 
         return (
             <DocumentTitle title={ config.siteTitle }>
-              <div>
-                <SiteSidebar {...this.props}/>
-                <div className='content'>
-                  <div className='main'>
-                    <div className='main-inner'>
-                      { pageLinks }
+                <div>
+                    <SiteSidebar {...this.props}/>
+                    <div className='content'>
+                        <div className='main'>
+                            <div className='main-inner'>
+                                { pageLinks }
+                                <ExperienceList {...this.props}/>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </DocumentTitle>
         )
     }
