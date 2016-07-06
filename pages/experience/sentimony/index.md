@@ -1,8 +1,8 @@
 ---
-title: Sentimony Records
+title: "Experience Sentimony Records"
 date: "2006-11-13T22:40:32.169Z"
-layout: post
-path: "/sentimony/"
+layout: experience
+path: "/experience-sentimony/"
 category: "Music Label"
 description: "Electronic Music Label"
 ---

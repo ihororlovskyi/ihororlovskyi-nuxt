@@ -4,6 +4,8 @@ import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
 import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
+import ExperienceList from '../ExperienceList'
+
 import './style.css'
 
 class SiteSidebar extends React.Component {
@@ -14,7 +16,7 @@ class SiteSidebar extends React.Component {
         let header = (
         <header>
             <Link style={ {    textDecoration: 'none',    borderBottom: 'none',    outline: 'none'} } to={ prefixLink('/') }>
-            <img src={ prefixLink('./ihororlovskyi-01.jpg') } width='180' height='180' />
+            <img src={ prefixLink('/ihororlovskyi-01.jpg') } width='180' height='180' />
             </Link>
             { isHome ? (
                 <h1><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h1>
@@ -44,6 +46,7 @@ class SiteSidebar extends React.Component {
                         </footer>
                     </div>
                 </div>
+                <ExperienceList {...this.props}/>
             </div>
         );
     }

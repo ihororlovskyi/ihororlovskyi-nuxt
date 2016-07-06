@@ -1,5 +1,5 @@
 ---
-title: Lookinglook Records
+title: "Lookinglook Records"
 date: "2009-01-06T23:46:37.121Z"
 layout: post
 path: "/lookinglook/"

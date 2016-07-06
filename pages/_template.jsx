@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
-import { config } from 'config'
 
 import '../static/css/reset.css'
 import '../static/css/base.css'
