@@ -37,5 +37,8 @@ class ExperienceList extends React.Component {
     }
 }
 
+ExperienceList.propTypes = {
+    route: React.PropTypes.object,
+}
 
 export default ExperienceList
