@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router'
 import sortBy from 'lodash/sortBy'
+import moment from 'moment'
 import { prefixLink } from 'gatsby-helpers'
-import { config } from 'config'
 import access from 'safe-access'
 
 import './style.scss'
