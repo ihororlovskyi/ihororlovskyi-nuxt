@@ -1,17 +1,27 @@
-# React Porfolio
+# Ihor Orlovskyi portfolio site
 
-Web development of Ihor Orlovskyi portfolio site using [GatsbyJS](https://github.com/gatsbyjs/gatsby) - a [ReactJS](https://facebook.github.io/react) static site generator.
+### Ihor Orlovskyi - Front-end Engineer
 
-### How to use
+Web development of Ihor Orlovskyi portfolio site
+
+### Run
 
 `npm i`
 
 `gatsby develop`
 
-`gatsby build --prefix-links`
+### Build
 
-After that just copy all from 'build' folder into root of 'gh-pages' branch and push.
+`gatsby build` (or `gatsby build --prefix-links`)
 
-### Thanks
+After that just copy all from 'build' folder into root of `master` (or `gh-pages`) branch and push.
+
+### Used
+
+JavaScript library - [ReactJS](https://facebook.github.io/react)
+
+Static site generator - [GatsbyJS](https://github.com/gatsbyjs/gatsby)
+
+Front-end concept - [Coriolan UI](https://coriolan-ui.github.io)
 
 Proudly hosted by [GitHub Pages](https://pages.github.com)
