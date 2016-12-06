@@ -1,7 +1,7 @@
 ---
 title: "Experience"
 layout: page
-path: "/experience"
+path: "/experience/"
 ---
 
 #### BBQ Agency
