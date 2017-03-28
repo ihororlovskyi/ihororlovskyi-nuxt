@@ -1,5 +1,4 @@
 node_modules/
-public
+.nuxt/
+dist/
 
-.gatsby-context.js
-pages/.manifest

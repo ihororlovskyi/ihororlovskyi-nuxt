@@ -1,25 +1,21 @@
-# react-porfolio
+# ihororlovskyi
 
-_Gatsby experiments_
+_Web development of Ihor Orlovskyi site_
 
 ### Used
 
-[Gatsby](https://github.com/gatsbyjs/gatsby) - static site generator based on [ReactJS](https://facebook.github.io/react)
+[Nuxt.js](https://nuxtjs.org) - framework for server-rendered [Vue.js](https://vuejs.org) applications
 
-[Webpack](https://webpack.github.io) - build system
+[Firebase](https://firebase.google.com) - free realtime database by [Google](https://developers.google.com)
 
 [Coriolan UI](https://coriolan-ui.github.io) - [Sass](http://sass-lang.com) mixins pack
 
-[GitHub Pages](https://pages.github.com) - free hosting
+[Netlify](https://www.netlify.com) - automatic deploy & free hosting platform
 
 ### Run
 
 `npm i`
 
-`npm run develop`
-
-### Deploy
-
-`npm run deploy`
+`npm start`
 
 #### Have fun! :)
