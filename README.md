@@ -1,4 +1,4 @@
-# ihororlovskyi
+# ihororlovskyi-nuxt
 
 _Web development of Ihor Orlovskyi site_
 
