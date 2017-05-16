@@ -16,6 +16,6 @@ _Web development of Ihor Orlovskyi site_
 
 `npm i`
 
-`npm start`
+`nuxt` or `npm run develop`
 
 #### Have fun! :)
