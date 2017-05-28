@@ -3,7 +3,7 @@
     <div class='footer-block__copyright'>2007 - 2017 © Ihor Orlovskyi</div>
     <div class='footer-block__powered'>
       <a class='footer-block__powered-link' href='https://rooooster.com' target='_blank'>
-      <img class='footer-block__powered-img' src="/assets/img/svg-icons/rooster-studio.svg">
+      <img class='footer-block__powered-img' src="/assets/img/svg-icons/old/rooster-studio.svg">
         <span class='footer-block__powered-text'>Rooster<br>Studio</span>
       </a>
     </div>

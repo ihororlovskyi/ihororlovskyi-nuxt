@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img class="home__icon" src="/assets/img/svg-icons/ihororlovskyi.svg">
+    <img class="home__icon" src="/assets/img/svg-icons/old/ihororlovskyi.svg">
     <h1 class="home__title">Ihor Orlovskyi</h1>
     <p class="home__subtitle">Front-end Developer</p>
   </div>

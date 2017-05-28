@@ -2,7 +2,7 @@
   <header class="main-menu">
     <nav class="main-menu__list">
       <nuxt-link class="main-menu__link" to='/' exact>
-        <img class="main-menu__icon-eagle" src="/assets/img/svg-icons/ihororlovskyi.svg">
+        <img class="main-menu__icon-eagle" src="/assets/img/svg-icons/old/ihororlovskyi.svg">
         About
       </nuxt-link>
       <nuxt-link class="main-menu__link" to='/portfolio'>Portfolio</nuxt-link>
