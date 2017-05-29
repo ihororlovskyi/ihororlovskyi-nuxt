@@ -33,7 +33,8 @@
     background: rgba(#fff,.1);
     border-radius: 8px;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   &__ratio {
