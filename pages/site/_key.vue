@@ -33,6 +33,7 @@
     background: rgba(#fff,.1);
     border-radius: 8px;
     box-sizing: border-box;
+    overflow: hidden;
   }
 
   &__ratio {
