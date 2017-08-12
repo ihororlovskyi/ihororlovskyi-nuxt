@@ -16,6 +16,25 @@
   </div>
 </template>
 
+<script>
+import axios from '~plugins/axios'
+
+export default {
+  head: {
+    title: 'Contacts',
+    meta: [
+      { name: 'description', content: 'Contacts page description' }
+    ]
+  },
+  async asyncData() {
+    const { data } = await axios.get('contacts.json')
+    return {
+      contacts: data
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 $text-color: #ccc;
 $accent-color: lighten($text-color, 10%);
@@ -48,22 +67,3 @@ $accent-color: lighten($text-color, 10%);
   }
 }
 </style>
-
-<script>
-import axios from '~plugins/axios'
-
-export default {
-  head: {
-    title: 'Contacts',
-    meta: [
-      { name: 'description', content: 'Contacts page description' }
-    ]
-  },
-  async asyncData() {
-    const { data } = await axios.get('contacts.json')
-    return {
-      contacts: data
-    }
-  }
-}
-</script>

@@ -6,6 +6,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  head: {
+    title: 'About',
+    meta: [
+      { name: 'description', content: 'About page description' }
+    ]
+  }
+}
+</script>
+
 <style lang="scss">
 @import '../node_modules/coriolan-ui/tools/variables';
 @import '../node_modules/coriolan-ui/mixins/media';
@@ -46,14 +57,3 @@
   }
 }
 </style>
-
-<script>
-export default {
-  head: {
-    title: 'About',
-    meta: [
-      { name: 'description', content: 'About page description' }
-    ]
-  }
-}
-</script>

@@ -17,6 +17,26 @@
   </div>
 </template>
 
+<script>
+import axios from '~plugins/axios'
+
+export default {
+  head: {
+    title: 'Site',
+    meta: [
+      { name: 'description', content: '' }
+    ]
+  },
+  async asyncData({ route }) {
+    const { key } = route.params
+    const { data } = await axios.get(`sites/${key}.json`)
+    return {
+      site: data
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 @import '../../node_modules/coriolan-ui/mixins/ratio';
 
@@ -59,23 +79,3 @@
   }
 }
 </style>
-
-<script>
-import axios from '~plugins/axios'
-
-export default {
-  head: {
-    title: 'Site',
-    meta: [
-      { name: 'description', content: '' }
-    ]
-  },
-  async asyncData({ route }) {
-    const { key } = route.params
-    const { data } = await axios.get(`sites/${key}.json`)
-    return {
-      site: data
-    }
-  }
-}
-</script>

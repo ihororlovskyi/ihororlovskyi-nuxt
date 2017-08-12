@@ -15,6 +15,20 @@
   </div>
 </template>
 
+<script>
+import Fractal from '~components/Fractal.vue'
+import MainMenu from '~components/MainMenu.vue'
+import FooterBlock from '~components/FooterBlock.vue'
+
+export default {
+  components: {
+    Fractal,
+    MainMenu,
+    FooterBlock
+  }
+}
+</script>
+
 <style lang="scss">
 // @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=cyrillic');
 @import '../node_modules/normalize.css/normalize.css';
@@ -106,17 +120,3 @@ body {
   -webkit-tap-highlight-color: $selection-color;
 }
 </style>
-
-<script>
-import Fractal from '~components/Fractal.vue'
-import MainMenu from '~components/MainMenu.vue'
-import FooterBlock from '~components/FooterBlock.vue'
-
-export default {
-  components: {
-    Fractal,
-    MainMenu,
-    FooterBlock
-  }
-}
-</script>
