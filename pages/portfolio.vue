@@ -3,7 +3,10 @@
     <h1>Portfolio</h1>
     <nav class="portfolio__list">
       <div class="portfolio__item" v-for="(site, key) in sites">
-        <nuxt-link class="portfolio__link" :to="{ path: `/site/${key}`}">{{ site.title }}</nuxt-link>
+        <nuxt-link class="portfolio__link" :to="{ path: `/site/${key}`}">
+          <div>{{ site.title }}</div>
+          <div v-if='site.date'>{{ site.date }}</div>
+        </nuxt-link>
       </div>
     </nav>
     <p>and many more . . .</p>
