@@ -10,6 +10,25 @@
   </div>
 </template>
 
+<script>
+import axios from '~/plugins/axios'
+
+export default {
+  head: {
+    title: 'Portfolio',
+    meta: [
+      { name: 'description', content: 'Portfolio page description' }
+    ]
+  },
+  async asyncData() {
+    const { data } = await axios.get('sites.json')
+    return {
+      sites: data
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 @import '../node_modules/coriolan-ui/tools/variables';
 @import '../node_modules/coriolan-ui/mixins/media';
@@ -73,22 +92,3 @@
   }
 }
 </style>
-
-<script>
-import axios from '~plugins/axios'
-
-export default {
-  head: {
-    title: 'Portfolio',
-    meta: [
-      { name: 'description', content: 'Portfolio page description' }
-    ]
-  },
-  async asyncData() {
-    const { data } = await axios.get('sites.json')
-    return {
-      sites: data
-    }
-  }
-}
-</script>
