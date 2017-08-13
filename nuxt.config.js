@@ -16,8 +16,8 @@ module.exports = {
     height: '4px'
   },
   plugins: [
-    '~plugins/google-analytics.js',
-    '~plugins/yandex-metrika.js'
+    '~/plugins/google-analytics.js',
+    '~/plugins/yandex-metrika.js'
   ],
   build: {
     vendor: ['axios']
