@@ -32,7 +32,7 @@ module.exports = {
       '/site/mcriviera',
       '/site/skoryk',
       '/site/vatmanman',
-      '/site/rooooster',
+      '/site/chess',
       '/site/sentimony',
       '/site/promorepublic',
       '/site/promorepublic-blog',
