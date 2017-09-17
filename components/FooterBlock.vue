@@ -1,8 +1,8 @@
 <template>
   <footer class='footer-block'>
-    <div class='footer-block__copyright'>2007 - 2017 © Ihor Orlovskyi</div>
+    <div class='footer-block__copyright'>2006 - 2017 © Ihor Orlovskyi</div>
     <div class='footer-block__powered'>
-      <a class='footer-block__powered-link' href='https://rooooster.com' target='_blank'>
+      <a class='footer-block__powered-link' href='https://rooster-chess.netlify.com' target='_blank'>
       <img class='footer-block__powered-img' src="/assets/img/svg-icons/old/rooster-studio.svg">
         <span class='footer-block__powered-text'>Rooster<br>Studio</span>
       </a>

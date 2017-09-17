@@ -3,7 +3,7 @@
     "axios": "^0.16.2",
     "coriolan-ui": "^0.1.19",
     "normalize.css": "^7.0.0",
-    "nuxt": "^1.0.0-rc4"
+    "nuxt": "^1.0.0-rc11"
   },
   "devDependencies": {
     "node-sass": "^4.5.3",
