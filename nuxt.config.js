@@ -16,8 +16,12 @@ module.exports = {
     height: '4px'
   },
   plugins: [
-    '~/plugins/google-analytics.js',
-    '~/plugins/yandex-metrika.js'
+    { src: '~plugins/google-analytics.js', ssr: false },
+    { src: '~/plugins/vue-touch-ripple.js', ssr: false }
+  ],
+  css: [
+    'normalize.css/normalize.css',
+    'vue-touch-ripple/component.css'
   ],
   build: {
     vendor: ['axios']

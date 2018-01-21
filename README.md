@@ -20,6 +20,6 @@ _Web development of Ihor Orlovskyi site_
 
 `npm i`
 
-`npm run develop`
+`npm run dev`
 
 #### Have fun! :)

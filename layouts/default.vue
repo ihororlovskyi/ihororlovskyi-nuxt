@@ -31,7 +31,7 @@ export default {
 
 <style lang="scss">
 // @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=cyrillic');
-@import '../node_modules/normalize.css/normalize.css';
+// @import '../node_modules/normalize.css/normalize.css';
 $text-color: #ccc;
 $link-color: darken($text-color, 15%);
 $link-color-hover: lighten($link-color, 30%);
@@ -63,15 +63,10 @@ img {
   display: inline-block;
 }
 
-html {
-  height: 100%;
-}
-
-body {
-  height: 100%;
-}
-
-#__nuxt {
+html,
+body,
+#__nuxt,
+#__layout {
   height: 100%;
 }
 

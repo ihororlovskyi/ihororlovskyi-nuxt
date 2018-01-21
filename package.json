@@ -1,15 +1,16 @@
 {
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.17.1",
     "coriolan-ui": "^0.1.19",
     "normalize.css": "^7.0.0",
-    "nuxt": "^1.0.0-rc11"
+    "nuxt": "^1.1.1",
+    "vue-touch-ripple": "^2.4.0"
   },
   "devDependencies": {
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6"
   },
   "scripts": {
-    "develop": "nuxt"
+    "dev": "nuxt"
   }
 }
